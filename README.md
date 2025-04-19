@@ -48,8 +48,7 @@ Cada módulo contém **três componentes**:
 
 ---
 
-## ⚙️ Instalação
-
+```bash
 # Clone o repositório
 git clone https://github.com/oBrenn0w/DataForgeOS.git
 cd DataForgeOS
@@ -65,13 +64,16 @@ cd bot
 pip install -r requirements.txt
 
 # Inicie a API REST
-cd api
+cd ../api
 go run main.go
 
 # Inicie a GUI desktop
-cd gui
+cd ../gui
 go run main.go
 
+```
+---
+```text
 DataForgeOS/
 ├── api/           # Código da API REST em Go
 ├── gui/           # Interface Fyne em Go
@@ -79,3 +81,4 @@ DataForgeOS/
 ├── migrations/    # Scripts SQL para criação de esquema
 ├── docs/          # Documentação adicional
 └── README.md      # Visão geral do projeto
+

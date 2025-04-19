@@ -9,7 +9,7 @@ import (
 func main() {
 	myApp := app.New()
 	win := window.CreateMainWindow(myApp)
-	win.SetMainMenu(menu.NewAppMenu())
+	win.SetMainMenu(menu.NewAppMenu(myApp))
 	win.ShowAndRun()
 
 }

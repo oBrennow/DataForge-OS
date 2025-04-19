@@ -1,10 +1,14 @@
 package menu
 
-import "fyne.io/fyne/v2"
+import (
+	"fyne.io/fyne/v2"
+	"github.com/oBrenn0w/Data-Forge-OS/DataForgeOS_GUI/modules/producao"
+)
 
-func NewAppMenu() *fyne.MainMenu {
+func NewAppMenu(a fyne.App) *fyne.MainMenu {
 	producaoTurno := fyne.NewMenuItem("Produção", func() {
-		// Criar um subtelinha para r3ealizar o cadastro da produção por turno
+		wCadastroProducao := producao.CadastroProducao(a)
+		wCadastroProducao.Show()
 	})
 	cadastroMaquina := fyne.NewMenuItem("Cadastro de Maquinas", func() {
 		// Criar um subtelinha para r3ealizar o cadastro de maquinas

@@ -19,7 +19,7 @@ O DataForgeOS é **modular**, composto por três subsistemas principais:
 | Módulo            | Descrição                                |
 |-------------------|------------------------------------------|
 | **Produção**      | Registra dados de produção por turno.    |
-| **Funcionários**  | Gerencia cadastro e atributos de funcionários. |
+| **Produtos**  | Gerencia cadastro e atributos de Produtos. |
 | **Vendas**        | Controla transações de vendas.           |
 
 Cada módulo contém **três componentes**:

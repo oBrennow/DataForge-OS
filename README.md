@@ -26,7 +26,8 @@ Cada módulo contém **três componentes**:
 
 1. **Interface Gráfica (GUI)** – Go + Fyne (desktop).  
 2. **API REST** – Go (Gin ou Fiber) para CRUD e relatórios.  
-3. **Bot de Dados** – Python (Faker, Schedule, Requests) para gerar dados fictícios e popular o PostgreSQL.  
+3. **Bot de Dados** – Python (Faker, Schedule, Requests) para gerar dados fictícios e popular o PostgreSQL.
+4. **Banco de dados** - PostgreSQL
 
 ---
 
